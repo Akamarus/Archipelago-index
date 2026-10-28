@@ -1,0 +1,11 @@
+name = "Craftopia"
+home = "https://github.com/Akamarus/craftopia-archipelago"
+default_url = "https://github.com/Akamarus/craftopia-archipelago/releases/download/v{{version}}/craftopia.apworld"
+# Older lobbies only read the global flag and [versions].
+disabled = true
+
+[releases]
+"1.18.2" = { min_ap_version = "0.6.8" }
+
+[base.">=0.6.8"]
+disabled = false
